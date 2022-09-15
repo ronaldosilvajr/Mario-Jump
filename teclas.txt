@@ -1,0 +1,7 @@
+  document.addEventListener('keydown', (e) => {
+    if ((e.code === "ArrowUp") | (e.code === "Space")) {
+      jump();
+    }
+  });
+
+  document.addEventListener("keydown", jump);
